@@ -1,0 +1,112 @@
+/**************************/
+/* HEADER */
+/**************************/
+.pre-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.8);
+  height: 3.6rem;
+  padding: 0 4.8rem;
+  position: relative;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.8),
+    rgba(0, 0, 0, 0.5)
+  );
+
+  height: 9.6rem;
+  padding: 0 4.8rem;
+  position: relative;
+}
+
+.logo {
+  height: 7.2rem;
+}
+
+/**************************/
+/* NAVIGATION */
+/**************************/
+
+.info-list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 2.8rem;
+}
+
+.list-icon {
+  height: 2rem;
+  width: 1.7rem;
+  transform: translatey(0.5rem);
+  color: #ffffff;
+}
+
+.info-link {
+  display: inline-block;
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 530;
+  font-size: 1.4rem;
+  transition: all 0.3s;
+  letter-spacing: 0.1rem;
+}
+
+.social-list-item {
+  display: flex;
+  list-style: none;
+  gap: 1rem;
+  align-items: center;
+}
+
+.social-link {
+  display: inline-block;
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 1.8rem;
+  transition: all 0.3s;
+}
+
+.account-link {
+  display: inline-block;
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 1.3rem;
+  transition: all 0.3s;
+}
+
+.main-nav-list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 4.8rem;
+}
+
+.main-nav-link:link,
+.main-nav-link:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 1.8rem;
+  transition: all 0.3s;
+}
+
+.main-nav-link:hover,
+.main-nav-link:active,
+.social-link:hover,
+.social-link:active,
+.account-link:hover,
+.account-link:active,
+.info-link:hover,
+.info-link:active {
+  color: #000000;
+}
