@@ -9,6 +9,7 @@
   height: 3.6rem;
   padding: 0 4.8rem;
   position: relative;
+  z-index: 100;
 }
 
 .header {
@@ -20,7 +21,7 @@
     rgba(0, 0, 0, 0.8),
     rgba(0, 0, 0, 0.5)
   );
-
+  z-index: 100;
   height: 9.6rem;
   padding: 0 4.8rem;
   position: relative;
@@ -63,6 +64,7 @@
   list-style: none;
   gap: 1rem;
   align-items: center;
+  transform: translatey(0.5rem);
 }
 
 .social-link {
@@ -72,6 +74,7 @@
   font-weight: 500;
   font-size: 1.8rem;
   transition: all 0.3s;
+  color: rgb(72, 185, 193);
 }
 
 .account-link {
@@ -109,4 +112,13 @@
 .info-link:hover,
 .info-link:active {
   color: #000000;
+}
+
+.slider-section {
+  transform: translatey(-13.2rem);
+  margin: -1px;
+}
+
+.slider-section .item {
+  height: 95vh;
 }
