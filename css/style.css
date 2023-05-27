@@ -1,5 +1,4 @@
 body {
-  background-color: #000;
   padding: 0;
 }
 
@@ -159,7 +158,7 @@ body {
 
 .owl-img {
   width: 100%;
-  height: 95vh;
+  height: 100vh;
 }
 
 .owl-text-overlay {
@@ -167,8 +166,7 @@ body {
   text-align: start;
   width: 60%;
   top: 50%;
-  transform: translateY(-50%);
-  transform: translateX(-10%);
+  transform: translate(-15rem, -5rem);
   left: 0;
   right: 0;
   margin-left: auto;
@@ -191,7 +189,7 @@ h3.owl-subtitle {
   font-weight: 700;
   margin-top: 10px;
   margin-bottom: 20px;
-  color: rgb(72, 185, 193);
+  color: #37a6a6;
 }
 
 p.owl-text {
@@ -203,30 +201,6 @@ p.owl-text {
 .owl-theme .owl-controls .owl-page span:active {
   background: #fff !important;
 }
-
-/* .owl-text-overlay {
-  position: absolute;
-  text-align: center;
-  width: 60%;
-  top: 50%;
-  transform: translateY(-50%);
-  left: 0;
-  right: 0;
-  margin-left: auto;
-  margin-right: auto;
-  color: #fff;
-  background-color: rgba(0, 0, 0, 0.4);
-  background: rgba(0, 0, 0, 0.4);
-  padding-bottom: 20px;
-  font-family: "Open Sans", sans-serif;
-  border-radius: 15px 50px 30px 5px;
-}
-
-h2.owl-title {
-  font-size: 48px;
-  font-weight: bold;
-  margin-bottom: 20px;
-} */
 
 .slider-section .owl-theme .owl-dots,
 .slider-section .owl-theme .owl-nav {
@@ -254,4 +228,28 @@ h2.owl-title {
 
 .slider-section button.owl-dot:last-child {
   margin-right: 0px;
+}
+
+.section-bluebar {
+  background-color: #4690e7;
+  padding: 65px 0;
+  transform: translateY(-14rem);
+}
+
+.blueicons {
+  display: flex;
+  justify-content: space-around;
+}
+
+.section-bluebar .blueicons img {
+  max-width: 65px;
+}
+
+.blueicon text {
+  margin: auto;
+}
+
+.blueicon text h5 {
+  color: white;
+  font-size: 10rem;
 }
