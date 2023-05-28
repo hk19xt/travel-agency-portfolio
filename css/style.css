@@ -229,27 +229,3 @@ p.owl-text {
 .slider-section button.owl-dot:last-child {
   margin-right: 0px;
 }
-
-.section-bluebar {
-  background-color: #4690e7;
-  padding: 65px 0;
-  transform: translateY(-14rem);
-}
-
-.blueicons {
-  display: flex;
-  justify-content: space-around;
-}
-
-.section-bluebar .blueicons img {
-  max-width: 65px;
-}
-
-.blueicon text {
-  margin: auto;
-}
-
-.blueicon text h5 {
-  color: white;
-  font-size: 10rem;
-}
