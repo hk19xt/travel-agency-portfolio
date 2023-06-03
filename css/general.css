@@ -145,10 +145,12 @@ body {
 }
 
 .btn--form {
+  padding: 1rem;
   background-color: #45260a;
   color: #fdf2e9;
   align-self: end;
-  padding: 1.2rem;
+  font-size: 1.8rem;
+  transform: translateY(-0.7rem);
 }
 
 .btn--form:hover {
@@ -255,4 +257,43 @@ strong {
 
 .item-text-details {
   font-size: 1.5rem;
+}
+
+.grid-template-columns-2 {
+  /* grid-template-columns: 15rem 15rem 10rem 13rem 12rem 15rem; */
+  grid-template-columns: repeat(6, 1fr);
+  column-gap: 30px;
+}
+
+.searchbar-container {
+  transform: translateY(-14rem);
+  padding: 5rem 5rem;
+}
+
+.btn-search {
+  transform: translatey(-0.1rem);
+}
+
+.searchbar-container label {
+  display: block;
+  font-size: 1.6rem;
+  font-weight: 500;
+  margin-bottom: 1.2rem;
+}
+
+.searchbar-container input,
+.searchbar-container select {
+  width: 100%;
+  padding: 1rem;
+
+  font-size: 1.8rem;
+  font-family: inherit;
+  color: inherit;
+  border: none;
+  background-color: #fdf2e9;
+}
+
+.search-container *:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.8rem rgba(253, 242, 233, 0.5);
 }

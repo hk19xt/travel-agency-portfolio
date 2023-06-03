@@ -229,3 +229,24 @@ p.owl-text {
 .slider-section button.owl-dot:last-child {
   margin-right: 0px;
 }
+
+.input-icons i {
+  position: absolute;
+}
+
+.input-icons {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.icon {
+  transform: translate(13rem, 0.4rem) scale(2);
+  padding: 10px;
+}
+
+.keywords {
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+  margin-bottom: 3px;
+}

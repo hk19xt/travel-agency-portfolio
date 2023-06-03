@@ -32,6 +32,9 @@
       referrerpolicy="no-referrer"
     />
 
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <link rel="stylesheet" href="css/general.css" />
     <link rel="stylesheet" href="css/style.css" />
 
@@ -192,8 +195,49 @@
         </div>
       </div>
     </div>
-    <div class="packages">
-      <div class="package-form">
+    
+    <div class="searchbar-container">
+      <div class="grid grid-template-columns-2">
+        <div class="input-icons">
+          <label for="keywords">Keywords</label>
+          <i class="fa-solid fa-magnifying-glass icon"></i>
+            <input id="keywords" type="text" placeholder="" name="keywords" required>
+        </div>
+        <div>
+          <label for="select-activity">Activity</label>
+          <select id="select-activity" name="select-activity" required>
+            <option value="citytours">City tours</option>
+            <option value="museumtours">Museum tours</option>
+            <option value="familytours">Family tours</option>
+            <option value="outdoortours">Outdoor tours</option>
+            <option value="holidayspecials">Holiday specials</option>
+            <option value="others">Others</option>
+          </select>
+        </div>
+        <div>
+          <label for="select-destination">Destination</label>
+          <select id="select-destination" name="select-destination" required>
+            <option value="africa">Africa</option>
+            <option value="asia">Asia</option>
+            <option value="europe">Europe</option>
+            <option value="australia">Australia</option>
+          </select>
+        </div>
+        <div>
+          <label for="select-duration">Duration</label>
+          <select id="select-duration" name="select-duration" required>
+            <option value="1day">1 Day Tour</option>
+            <option value="2day">2-4 Days Tour</option>
+            <option value="5day">5-7 Days Tour</option>
+            <option value="7day">7+ Days Tour</option>
+          </select>
+        </div>
+        <div>
+          <label for="select-date">Date</label>
+          <input type="date" name="date" class="date">
+        </div>
+        
+        <button class="btn--form">Search</button>
         
       </div>
     </div>
