@@ -240,8 +240,9 @@ p.owl-text {
 }
 
 .icon {
-  transform: translate(13rem, 0.4rem) scale(2);
+  transform: scale(2);
   padding: 10px;
+  margin: 0.5rem -0.3rem;
 }
 
 .keywords {
@@ -249,4 +250,11 @@ p.owl-text {
   padding: 10px;
   text-align: center;
   margin-bottom: 3px;
+}
+
+.grid-template-columns-3 {
+  grid-template-columns: 5fr 1fr;
+  color: inherit;
+  border: none;
+  background-color: #fdf2e9;
 }
