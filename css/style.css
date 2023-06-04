@@ -258,3 +258,40 @@ p.owl-text {
   border: none;
   background-color: #fdf2e9;
 }
+
+.package-heading {
+  font-family: inherit;
+  margin-top: 6rem;
+  margin-bottom: 1.5rem;
+  font-size: 3rem;
+  color: #0c0000;
+  font-weight: 700;
+  letter-spacing: -0.02rem;
+}
+
+.package-smalltext {
+  display: inline-block;
+  margin-bottom: 7rem;
+  font-size: 1.7rem;
+  color: #2561e1;
+  font-weight: 500;
+}
+
+.grid-template-columns-4 {
+  grid-template-rows: 270px auto;
+  border: solid #000;
+  height: 520px;
+}
+
+.owl-sliderimg {
+  height: 270px;
+}
+
+.package-slider {
+  margin-left: 4rem;
+  margin-right: 4rem;
+}
+
+.img-wrapper {
+  height: 270px;
+}

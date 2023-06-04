@@ -19,3 +19,26 @@ jQuery(document).ready(function ($) {
     },
   });
 });
+
+jQuery(document).ready(function ($) {
+  $("#owl-packagedemo").owlCarousel({
+    loop: true,
+    margin: 50,
+    nav: true,
+    autoplay: false,
+    autoplayTimeout: 6000,
+    autoplayHoverPause: false,
+    dots: false,
+    responsive: {
+      0: {
+        items: 3,
+      },
+      600: {
+        items: 3,
+      },
+      1000: {
+        items: 3,
+      },
+    },
+  });
+});
