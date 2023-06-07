@@ -295,3 +295,55 @@ p.owl-text {
 .img-wrapper {
   height: 270px;
 }
+
+.clock {
+  padding: 6rem 0rem 0rem;
+}
+
+.clock-time {
+  width: 2.6rem;
+  height: 2.6rem;
+  margin-left: 1.8rem;
+  transform: translateY(0.7rem);
+}
+
+.days {
+  font-size: 1.8rem;
+  font-family: inherit;
+  letter-spacing: 0.1rem;
+}
+
+.star-flex {
+  margin-left: 2rem;
+}
+
+.star-fill {
+  width: 1.8rem;
+  height: 1.8rem;
+  color: #f1962e;
+}
+
+.review {
+  font-size: 1.5rem;
+  margin-left: 1.2rem;
+  display: inline-block;
+  transform: translateY(-0.4rem);
+}
+
+.searchbar-container .item {
+  position: relative;
+  overflow: hidden;
+}
+
+.searchbar-container .item .discount {
+  position: absolute;
+  top: 6%;
+  right: -20%;
+  text-transform: uppercase;
+  font-size: 1.6rem;
+  font-weight: 800;
+  color: #333;
+  background-color: #ffd43b;
+  padding: 0.8rem 8rem;
+  transform: rotate(45deg);
+}

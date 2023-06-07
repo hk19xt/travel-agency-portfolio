@@ -271,6 +271,19 @@ strong {
 .searchbar-container {
   transform: translateY(-14rem);
   padding: 5rem 5rem;
+  background-image: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      from(rgba(0, 0, 0, 0.4)),
+      to(rgba(0, 0, 0, 0.4))
+    ),
+    url(../img/robert-bye-WTPp4wgourk-unsplash.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(../img/robert-bye-WTPp4wgourk-unsplash.jpg);
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .btn-search {
@@ -355,7 +368,7 @@ h4 {
   margin-top: 2rem;
   margin-left: 1.7rem;
   text-transform: uppercase;
-  font-size: 1.7rem;
+  font-size: 2rem;
   font-weight: 800;
   color: #000;
   font-family: inherit;
@@ -369,25 +382,37 @@ h4 {
   padding: 0;
   margin: 0;
   list-style: none;
+  height: 3rem;
 }
 
 del {
   display: inline-block;
-  padding: 2rem 1rem 0;
+  padding: 1.7rem 0 0;
   font-size: 2rem;
   font-weight: 600;
   color: #8b8888;
   font-family: inherit;
   letter-spacing: -0.5px;
+  transform: translatex(2rem);
 }
 
 h3 {
   display: inline-block;
-  padding: 0.1rem 1rem;
+  padding: 0rem 1rem;
   font-size: 2.5rem;
   font-weight: 800;
   color: #3d8dce;
   font-family: inherit;
   letter-spacing: -0.5px;
-  transform: translatex(-3rem);
+  transform: translatex(-2rem);
+}
+
+.text-details {
+  margin-left: 1.7rem;
+  text-transform: uppercase;
+  font-size: 1.7rem;
+  font-weight: 800;
+  color: #000;
+  font-family: inherit;
+  letter-spacing: -0.5px;
 }
