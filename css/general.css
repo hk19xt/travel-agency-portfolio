@@ -269,8 +269,10 @@ strong {
 }
 
 .searchbar-container {
+  height: 100rem;
   transform: translateY(-14rem);
-  padding: 5rem 5rem;
+  /* padding: 5rem 5rem; */
+
   background-image: -webkit-gradient(
       linear,
       left top,
@@ -278,12 +280,18 @@ strong {
       from(rgba(0, 0, 0, 0.4)),
       to(rgba(0, 0, 0, 0.4))
     ),
-    url(../img/robert-bye-WTPp4wgourk-unsplash.jpg);
+    url(../img/packagebackground.jpg);
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url(../img/robert-bye-WTPp4wgourk-unsplash.jpg);
+    url(../img/packagebackground.jpg);
   background-position: center bottom;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.searchbar-container .box {
+  background-color: rgba(62, 62, 62, 0.6);
+  padding: 8rem 4rem;
+  position: relative;
 }
 
 .btn-search {
@@ -294,7 +302,9 @@ strong {
   display: block;
   font-size: 1.8rem;
   font-weight: 600;
+  margin-top: 1.2rem;
   margin-bottom: 1.2rem;
+  color: #fff;
 }
 
 .searchbar-container input,
@@ -398,7 +408,7 @@ del {
 
 h3 {
   display: inline-block;
-  padding: 0rem 1rem;
+  padding: 0rem 0rem;
   font-size: 2.5rem;
   font-weight: 800;
   color: #3d8dce;
@@ -415,4 +425,8 @@ h3 {
   color: #000;
   font-family: inherit;
   letter-spacing: -0.5px;
+}
+
+.package-slider .item {
+  background-color: #fff;
 }

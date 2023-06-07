@@ -197,55 +197,65 @@
     </div>
     
     <div class="searchbar-container">
-      <div class="grid grid-template-columns-2">
-        <div class="input-icons">
-          <label for="keywords">Keywords</label>
-          <div class="grid grid-template-columns-3">
-            <div><input id="keywords" type="text" placeholder="" name="keywords" required></div>
-            <div>
+      <div class="box">
+        <div class="grid grid-template-columns-2">
+        
+          <div class="input-icons">
+            <label for="keywords">Keywords</label>
+            <div class="grid grid-template-columns-3">
+              <div><input id="keywords" type="text" placeholder="" name="keywords" required></div>
+              <div>
               <i class="fa-solid fa-magnifying-glass icon"></i>
+              </div>
             </div>
           </div>
+        
+          <div>
+            <label for="select-activity">Activity</label>
+            <select id="select-activity" name="select-activity" required>
+              <option value="citytours">City tours</option>
+              <option value="museumtours">Museum tours</option>
+              <option value="familytours">Family tours</option>
+              <option value="outdoortours">Outdoor tours</option>
+              <option value="holidayspecials">Holiday specials</option>
+              <option value="others">Others</option>
+            </select>
+          </div>
+
+          <div>
+            <label for="select-destination">Destination</label>
+            <select id="select-destination" name="select-destination" required>
+              <option value="africa">Africa</option>
+              <option value="asia">Asia</option>
+              <option value="europe">Europe</option>
+              <option value="australia">Australia</option>
+            </select>
+          </div>
+
+          <div>
+            <label for="select-duration">Duration</label>
+            <select id="select-duration" name="select-duration" required>
+              <option value="1day">1 Day Tour</option>
+              <option value="2day">2-4 Days Tour</option>
+              <option value="5day">5-7 Days Tour</option>
+              <option value="7day">7+ Days Tour</option>
+            </select>
+          </div>
+        
+          <div>
+            <label for="select-date">Date</label>
+            <input type="date" name="date" class="date">
+          </div>
+          <button class="btn--form">Search</button>
         </div>
-        <div>
-          <label for="select-activity">Activity</label>
-          <select id="select-activity" name="select-activity" required>
-            <option value="citytours">City tours</option>
-            <option value="museumtours">Museum tours</option>
-            <option value="familytours">Family tours</option>
-            <option value="outdoortours">Outdoor tours</option>
-            <option value="holidayspecials">Holiday specials</option>
-            <option value="others">Others</option>
-          </select>
-        </div>
-        <div>
-          <label for="select-destination">Destination</label>
-          <select id="select-destination" name="select-destination" required>
-            <option value="africa">Africa</option>
-            <option value="asia">Asia</option>
-            <option value="europe">Europe</option>
-            <option value="australia">Australia</option>
-          </select>
-        </div>
-        <div>
-          <label for="select-duration">Duration</label>
-          <select id="select-duration" name="select-duration" required>
-            <option value="1day">1 Day Tour</option>
-            <option value="2day">2-4 Days Tour</option>
-            <option value="5day">5-7 Days Tour</option>
-            <option value="7day">7+ Days Tour</option>
-          </select>
-        </div>
-        <div>
-          <label for="select-date">Date</label>
-          <input type="date" name="date" class="date">
-        </div>
-        <button class="btn--form">Search</button>
       </div>
+      
       <div>
-          <h3 class="package-heading">Popular Tour Packages</h3>
-          <span class="package-smalltext">/ View All Tours</span>
+        <h3 class="package-heading">Popular Tour Packages</h3>
+        <span class="package-smalltext">/ View All Tours</span>
       </div>
+
+      
       <div class="package-slider">
         <div class="owl-carousel owl-theme" id="owl-packagedemo">
           <div class="item">
@@ -258,7 +268,7 @@
               </ul>
               <div class="clock">
                 <ion-icon class="clock-time" name="time"></ion-icon>
-                <span class="days">5 Days</span>
+              <span class="days">5 Days</span>
               </div>
               <ul class="star-flex">
                 <ion-icon class="star-fill" name="star"></ion-icon>
@@ -270,12 +280,12 @@
               </ul>
               <div>
                 <div class="discount">
-                  20% off
+                20% off
                 </div>
               </div>
             </div>
           </div>
-          
+        
           <div class="item">
             <div class="grid grid-template-columns-4 package-container">
               <div class="img-wrapper"><img class="owl-sliderimg" src="img/switzerlandpackage-min.png" /></div>
@@ -298,11 +308,12 @@
               </ul>
               <div>
                 <div class="discount">
-                  20% off
+                20% off
                 </div>
               </div>
             </div>
           </div>
+
           <div class="item">
             <div class="grid grid-template-columns-4 package-container">
               <div class="img-wrapper"><img class="owl-sliderimg" src="img/finlandpackage-min.png" /></div>
@@ -327,6 +338,7 @@
               </div>
             </div>
           </div>
+
           <div class="item">
             <div class="grid grid-template-columns-4 package-container">
               <div class="img-wrapper"><img class="owl-sliderimg" src="img/dubaipackage-min.png" /></div>
@@ -349,11 +361,12 @@
               </ul>
               <div>
                 <div class="discount">
-                  20% off
+                20% off
                 </div>
               </div>
             </div>
           </div>
+
           <div class="item">
             <div class="grid grid-template-columns-4 package-container">
               <div class="img-wrapper"><img class="owl-sliderimg" src="img/parispackage-min.png" /></div>
@@ -378,6 +391,7 @@
               </div>
             </div>
           </div>
+
           <div class="item">
             <div class="grid grid-template-columns-4 package-container">
               <div class="img-wrapper"><img class="owl-sliderimg" src="img/africapackage-min.png" /></div>
@@ -400,13 +414,13 @@
               </ul>
               <div>
                 <div class="discount">
-                  20% off
+                20% off
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
+      </div> 
     </div>
   </body>
 </html>

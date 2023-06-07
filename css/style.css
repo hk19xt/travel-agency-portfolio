@@ -263,8 +263,9 @@ p.owl-text {
   font-family: inherit;
   margin-top: 6rem;
   margin-bottom: 1.5rem;
+  margin-left: 6rem;
   font-size: 3rem;
-  color: #0c0000;
+  color: #fff;
   font-weight: 700;
   letter-spacing: -0.02rem;
 }
@@ -279,8 +280,9 @@ p.owl-text {
 
 .grid-template-columns-4 {
   grid-template-rows: 270px auto;
-  border: solid #000;
+  border: none;
   height: 520px;
+  overflow: hidden;
 }
 
 .owl-sliderimg {
@@ -288,8 +290,8 @@ p.owl-text {
 }
 
 .package-slider {
-  margin-left: 4rem;
-  margin-right: 4rem;
+  margin-left: 10rem;
+  margin-right: 10rem;
 }
 
 .img-wrapper {

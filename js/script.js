@@ -23,9 +23,9 @@ jQuery(document).ready(function ($) {
 jQuery(document).ready(function ($) {
   $("#owl-packagedemo").owlCarousel({
     loop: true,
-    margin: 50,
+    margin: 70,
     nav: true,
-    autoplay: false,
+    autoplay: true,
     autoplayTimeout: 6000,
     autoplayHoverPause: false,
     dots: false,
