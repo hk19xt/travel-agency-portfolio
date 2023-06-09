@@ -430,3 +430,13 @@ h3 {
 .package-slider .item {
   background-color: #fff;
 }
+
+.popular-destination {
+  height: 80rem;
+  background-color: #fff;
+}
+
+.popular-container {
+  transform: translateY(-10rem);
+  padding: 3rem 3rem;
+}

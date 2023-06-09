@@ -349,3 +349,34 @@ p.owl-text {
   padding: 0.8rem 8rem;
   transform: rotate(45deg);
 }
+
+.subway {
+  transform: translateY(0.5rem);
+  color: #2561e1;
+  width: 3rem;
+  height: 3rem;
+  margin-left: 6rem;
+}
+
+.popular-title {
+  margin-left: 3rem;
+  font-family: inherit;
+  font-size: 3rem;
+  color: #000;
+  font-weight: 500;
+}
+
+.popular-small-title {
+  display: inline-block;
+  font-size: 1.7rem;
+  color: #2561e1;
+  font-weight: 500;
+}
+
+.popular-text {
+  margin-top: 3em;
+  font-size: 1.4rem;
+  width: 70rem;
+  margin-left: 6rem;
+  letter-spacing: 0.2rem;
+}
