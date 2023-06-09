@@ -376,7 +376,8 @@ p.owl-text {
 .popular-text {
   margin-top: 3em;
   font-size: 1.4rem;
-  width: 70rem;
+  width: 80rem;
   margin-left: 6rem;
   letter-spacing: 0.2rem;
+  line-height: 1.5;
 }
