@@ -531,7 +531,7 @@ h3 {
 }
 
 .grid-template-columns-6 {
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: 1fr 1fr;
 }
 
 .bicycle {
@@ -543,7 +543,7 @@ h3 {
 }
 
 .newsletter-section {
-  height: 70rem;
+  height: 40rem;
 }
 
 .browse-title {
@@ -653,6 +653,7 @@ h3 {
 
 .grid-template-columns-7 {
   grid-template-columns: repeat(7, 1fr);
+  width: 27rem;
 }
 
 .social-item-list {
@@ -665,5 +666,43 @@ h3 {
 .social-item {
   width: 2.5rem;
   height: 2.5rem;
-  color: #535558;
+  color: #8e8e8f;
+}
+
+.discount-section {
+  background-image: url(../img/discount2.png);
+  height: 40rem;
+  background-repeat: no-repeat;
+  background-position: center 25%;
+  background-size: cover;
+  transform: translateY(-11rem);
+}
+
+.discount-text {
+  width: 50rem;
+  height: 50rem;
+  margin-left: 90rem;
+  margin-top: 5rem;
+}
+
+.discount-title {
+  display: inline-block;
+  margin-top: 9rem;
+  font-size: 4rem;
+  font-family: inherit;
+  color: #fff;
+}
+
+.distitle-small {
+  color: #ffc832;
+}
+
+.discount-detail-text {
+  margin-top: 1rem;
+  font-size: 1.5rem;
+}
+
+.btn-promotion {
+  background-color: #45260a;
+  color: #fff;
 }
