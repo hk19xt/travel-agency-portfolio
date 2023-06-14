@@ -23,7 +23,9 @@ body {
   color: #555;
 
   /* Only works if there is nothing absolutely positioned in relation to body */
+  width: 100%;
   overflow-x: hidden;
+  overflow-y: hidden;
 }
 
 /**************************/
@@ -728,4 +730,136 @@ h3 {
 .btn-promotion:active {
   background-color: #ffffff;
   color: #000;
+}
+
+.article-section {
+  height: 50rem;
+  background-color: #fff;
+}
+
+.article-container {
+  transform: translateY(-10rem);
+  height: 15rem;
+  padding: 3rem 0rem;
+}
+
+.book {
+  color: #3926b7;
+  width: 3rem;
+  height: 3rem;
+  margin-left: 7rem;
+  transform: translateY(0.3rem);
+}
+
+.article-title {
+  font-family: inherit;
+  color: #000;
+  font-weight: 500;
+  font-size: 3rem;
+  margin-left: 3rem;
+  margin-top: 5rem;
+}
+
+.article-small-title {
+  color: #478ee8;
+  font-size: 1.7rem;
+  font-family: inherit;
+  font-weight: 500;
+  letter-spacing: 0.1rem;
+}
+
+.article-container {
+  transform: translateY(-10rem);
+  height: 10rem;
+  padding: 3rem 0rem;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.6rem;
+  padding: 1.6rem;
+}
+
+.gallery-item {
+  overflow: hidden;
+  position: relative;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: 35rem;
+  transition: all 0.5s;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.gallery-item img:hover {
+  transform: scale(1.1);
+}
+
+.gallery-item img:hover {
+  opacity: 0.5;
+}
+
+.gallery-text {
+  text-align: center;
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.gallery-item:hover .gallery-text {
+  opacity: 1;
+}
+
+.gallery-small-text {
+  color: #000000;
+  font-size: 1.7rem;
+  font-family: inherit;
+  font-weight: 700;
+}
+
+.timer {
+  width: 2rem;
+  height: 2rem;
+  transform: translateY(0.5rem);
+}
+
+.grid-template-columns-8 {
+  grid-template-columns: 3fr repeat(3, 1fr 2fr);
+}
+
+.gallery-time {
+  font-size: 1.4rem;
+}
+
+.quality-container {
+  margin-top: 1rem;
+  background-image: linear-gradient(to right bottom, #93c7ff, #107ff7);
+  padding: 5rem 5rem;
+}
+
+.quality-icon {
+  padding: 1.6rem 0 0 1.6rem;
+  height: 7.5rem;
+}
+
+.quality-icon-thumbs {
+  padding: 1.6rem 0 0 1.6rem;
+  height: 7.5rem;
+  transform: translateY(-0.4rem);
+}
+
+.quality-text {
+  padding: 3rem;
+  font-size: 3rem;
+  color: #000000;
+  font-weight: 600;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
