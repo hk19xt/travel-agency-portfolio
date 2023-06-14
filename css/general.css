@@ -671,7 +671,7 @@ h3 {
 
 .discount-section {
   background-image: url(../img/discount2.png);
-  height: 40rem;
+  height: 38rem;
   background-repeat: no-repeat;
   background-position: center 25%;
   background-size: cover;
@@ -702,7 +702,30 @@ h3 {
   font-size: 1.5rem;
 }
 
-.btn-promotion {
+.btn-promotion,
+.btn-promotion:link,
+.btn-promotion:visited {
+  display: inline-block;
+  font-weight: 600;
   background-color: #45260a;
   color: #fff;
+  text-decoration: none;
+  font-size: 2rem;
+  padding: 1.6rem 3.2rem;
+  border-radius: 9px;
+  transform: translateY(3rem);
+  /* Only necessary for .btn */
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+
+  /* Put transition on original "state" */
+  /* transition: background-color 0.3s; */
+  transition: all 0.3s;
+}
+
+.btn-promotion:hover,
+.btn-promotion:active {
+  background-color: #ffffff;
+  color: #000;
 }
