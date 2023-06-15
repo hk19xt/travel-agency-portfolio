@@ -71,13 +71,16 @@ body {
   transform: translatey(0.5rem);
 }
 
-.social-link {
+.header-social-link {
   display: inline-block;
   text-decoration: none;
   color: #ffffff;
   font-weight: 500;
   font-size: 1.8rem;
   transition: all 0.3s;
+}
+
+.header-social-icon {
   color: rgb(72, 185, 193);
 }
 
