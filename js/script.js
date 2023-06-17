@@ -57,3 +57,18 @@ btn.on("click", function (e) {
   e.preventDefault();
   $("html, body").animate({ scrollTop: 0 }, "300");
 });
+
+$(window).scroll(function () {
+  if ($(this).scrollTop() > 450) {
+    $(".header").addClass("sticky");
+  } else {
+    $(".header").removeClass("sticky");
+  }
+});
+
+const btnNavEl = document.querySelector(".btn-mobile-nav");
+const headerEl = document.querySelector(".header");
+
+btnNavEl.addEventListener("click", function () {
+  headerEl.classList.toggle("nav-open");
+});
