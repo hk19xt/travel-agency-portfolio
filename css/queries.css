@@ -1,0 +1,320 @@
+/**************************/
+/* BELOW 1200px (Landscape Tablets) */
+/**************************/
+
+@media (max-width: 75em) {
+  .text-details {
+    font-size: 1.3rem;
+  }
+
+  .box {
+    height: 20rem;
+  }
+
+  .box-media {
+    transform: translateY(-4rem);
+  }
+
+  .searchbar-container {
+    height: 92rem;
+  }
+
+  .package-container {
+    height: 47rem;
+  }
+
+  .clock-time {
+    width: 2rem;
+    height: 2rem;
+  }
+
+  .days {
+    font-size: 1.4rem;
+  }
+  .discount-price {
+    margin-top: 0.4rem;
+    font-size: 2.2rem;
+    transform: translateX(0.2rem);
+  }
+
+  .original-price {
+    display: inline-block;
+    padding-right: 0.4rem;
+    margin-right: 0.4rem;
+  }
+
+  .discount-text {
+    margin-left: 60rem;
+  }
+
+  .quality-text {
+    font-size: 2.3rem;
+  }
+
+  .item-text {
+    margin-top: 1rem;
+    font-size: 1.8rem;
+  }
+
+  .destination-item {
+    height: 80%;
+  }
+
+  .tour-text {
+    transform: translateY(-4rem);
+    font-size: 1.3rem;
+    padding: 0.4rem 0.3rem;
+  }
+
+  .tour {
+    justify-content: space-around;
+  }
+
+  .top-title {
+    font-size: 2.3rem;
+  }
+
+  .footer-gallery {
+    width: 40rem;
+  }
+
+  .contact-section {
+    margin-left: 0rem;
+  }
+
+  .destination-small-text {
+    font-size: 2.5rem;
+  }
+
+  .discount-detail-text {
+    width: 35rem;
+  }
+
+  .gallery-item {
+    height: 30rem;
+  }
+
+  .btn-subscribe {
+    padding: 1.5rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+  }
+
+  .searchbar-container .item .discount {
+    position: absolute;
+    top: 6%;
+    right: -26%;
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    font-weight: 800;
+    color: #333;
+    background-color: #ffd43b;
+    padding: 0.8rem 8rem;
+    transform: rotate(45deg);
+  }
+}
+
+/**************************/
+/* BELOW 944px (Tablets) */
+/**************************/
+
+@media (max-width: 59em) {
+  .discount-title {
+    font-size: 3rem;
+  }
+
+  .discount-detail-text {
+    width: 30rem;
+  }
+
+  .btn-promotion {
+    font-size: 1.5rem;
+    padding: 1.5rem 1.5rem;
+  }
+
+  .bluebar-container {
+    height: 17rem;
+  }
+
+  .item-icon {
+    height: 6.5rem;
+    width: 6.5rem;
+    transform: translateY(-1rem);
+  }
+
+  .item-text {
+    font-size: 1.4rem;
+    transform: translateY(-2rem);
+    margin-left: 1rem;
+  }
+
+  .searchbar-container label {
+    font-size: 1.5rem;
+    letter-spacing: 0.1rem;
+  }
+
+  .searchbar-container input,
+  .searchbar-container select {
+    width: 100%;
+    padding: 0.6rem;
+
+    font-size: 1.6rem;
+    font-family: inherit;
+    color: inherit;
+    border: none;
+    background-color: #fdf2e9;
+  }
+
+  .fa-magnifying-glass {
+    transform: translateY(-0.3rem);
+  }
+
+  .box {
+    height: 18rem;
+  }
+
+  .box-media {
+    transform: translateY(-4rem);
+  }
+
+  .searchbar-container {
+    height: 87rem;
+  }
+
+  .searchbar-container .item .discount {
+    position: absolute;
+    top: 6%;
+    right: -22%;
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    font-weight: 800;
+    color: #333;
+    background-color: #ffd43b;
+    padding: 0.8rem 8rem;
+    transform: rotate(45deg);
+  }
+
+  .tour-text {
+    transform: translateY(-4rem);
+    font-size: 1.2rem;
+    padding: 0.3rem 0.2rem;
+  }
+
+  .destination-small-text {
+    font-size: 2rem;
+  }
+
+  .tour-container {
+    width: 18rem;
+  }
+
+  .tour {
+    justify-content: space-between;
+  }
+
+  .btn-subscribe {
+    padding: 1.5rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+  }
+
+  .gallery-item {
+    height: 26rem;
+  }
+
+  .article-section {
+    height: 40rem;
+  }
+
+  .article-container {
+    height: 5rem;
+  }
+
+  .quality-text {
+    width: 25rem;
+    font-size: 2.2rem;
+    transform: translateY(-2rem);
+  }
+
+  .quality-icon-thumbs {
+    transform: translateY(-2rem);
+    height: 6rem;
+    width: 6rem;
+  }
+
+  .quality-icon {
+    transform: translateY(-2rem);
+    height: 7rem;
+    width: 7rem;
+  }
+
+  .quality-container {
+    height: 14rem;
+  }
+
+  .item-text {
+    transform: translateY(-3rem);
+  }
+
+  .footer-logo {
+    transform: translateX(-2rem);
+    width: 20rem;
+  }
+
+  .logo-text {
+    transform: translateX(-2rem);
+    width: 24rem;
+  }
+
+  .top-title {
+    font-size: 1.8rem;
+    transform: translateX(-2rem);
+  }
+
+  .footer-gallery {
+    transform: translateX(-2rem);
+    grid-template-columns: repeat(3, 1fr);
+    width: 32rem;
+  }
+
+  .footer-gallery-item img {
+    height: 10rem;
+    width: 10rem;
+  }
+
+  .footer-gallery-small-text {
+    font-size: 1.4rem;
+  }
+
+  .grid-template-columns-7 {
+    grid-template-columns: repeat(4, 1fr);
+    width: 16rem;
+    row-gap: 1rem;
+  }
+
+  .contact-title {
+    transform: translateX(0rem);
+  }
+}
+
+/**************************/
+/* BELOW 704px (Smaller tablets) */
+/**************************/
+
+@media (max-width: 44em) {
+}
+
+/**************************/
+/* BELOW 544px (Phones) */
+/**************************/
+
+@media (max-width: 34em) {
+}
+
+/**************************/
+/* Fixing Safari flexbox gap */
+/**************************/

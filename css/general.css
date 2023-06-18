@@ -1036,3 +1036,8 @@ a:link {
   opacity: 1;
   visibility: visible;
 }
+
+input,
+select {
+  border-radius: 15px;
+}

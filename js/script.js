@@ -31,10 +31,10 @@ jQuery(document).ready(function ($) {
     dots: false,
     responsive: {
       0: {
-        items: 3,
+        items: 1,
       },
       600: {
-        items: 3,
+        items: 2,
       },
       1000: {
         items: 3,

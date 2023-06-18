@@ -37,6 +37,7 @@
 
     <link rel="stylesheet" href="css/general.css" />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/queries.css"/>
 
     <script
       type="module"
@@ -177,12 +178,12 @@
     </div>
     <div class="bluebar-container">
       <div class="grid grid-template-columns-1">
-        <img class="item-icon" src="img/airplane.svg" alt="airplane"></img>
+        <img class="item-icon" src="img/airplane-svgrepo-com.svg" alt="airplane"></img>
         <div class="item-text">500+ Destinations
           <p class="item-text-details">Morbi leo risus, porta as
           </p>
         </div>
-        <img class="item-icon" src="img/price.svg" alt="price"></img>
+        <img class="item-icon" src="img/tag-svgrepo-com.svg" alt="price"></img>
         <div class="item-text">Best Price
           <p class="item-text-details">Morbi leo risus, porta as
           </p>
@@ -192,7 +193,7 @@
           <p class="item-text-details">Morbi leo risus, porta as
           </p>
         </div>
-        <img class="item-icon" src="img/calendar.svg" alt="calendar"></img>
+        <img class="item-icon" src="img/calendar-check-svgrepo-com.svg" alt="calendar"></img>
         <div class="item-text">Super Fast Booking
           <p class="item-text-details">Morbi leo risus, porta as
           </p>
@@ -202,17 +203,18 @@
     
     <div class="searchbar-container">
       <div class="box">
-        <div class="grid grid-template-columns-2">
+        <div class="grid grid-template-columns-2 box-media">
         
-          <div class="input-icons">
-            <label for="keywords">Keywords</label>
-            <div class="grid grid-template-columns-3">
-              <div><input id="keywords" type="text" placeholder="" name="keywords" required></div>
-              <div>
-              <i class="fa-solid fa-magnifying-glass icon"></i>
-              </div>
-            </div>
+          <div>
+            <label for="select-destination">Destination</label>
+            <select id="select-destination" name="select-destination" required>
+              <option value="africa">Africa</option>
+              <option value="asia">Asia</option>
+              <option value="europe">Europe</option>
+              <option value="australia">Australia</option>
+            </select>
           </div>
+
         
           <div>
             <label for="select-activity">Activity</label>
@@ -226,16 +228,7 @@
             </select>
           </div>
 
-          <div>
-            <label for="select-destination">Destination</label>
-            <select id="select-destination" name="select-destination" required>
-              <option value="africa">Africa</option>
-              <option value="asia">Asia</option>
-              <option value="europe">Europe</option>
-              <option value="australia">Australia</option>
-            </select>
-          </div>
-
+          
           <div>
             <label for="select-duration">Duration</label>
             <select id="select-duration" name="select-duration" required>
@@ -245,11 +238,22 @@
               <option value="7day">7+ Days Tour</option>
             </select>
           </div>
-        
+
           <div>
             <label for="select-date">Date</label>
             <input type="date" name="date" class="date">
           </div>
+
+          <div class="input-icons">
+            <label for="keywords">Keywords</label>
+            <div class="grid grid-template-columns-3">
+              <div><input id="keywords" type="text" placeholder="" name="keywords" required></div>
+              <div>
+              <i class="fa-solid fa-magnifying-glass icon"></i>
+              </div>
+            </div>
+          </div>
+          
           <button class="btn--form">Search</button>
         </div>
       </div>
@@ -268,7 +272,7 @@
               <ul class="flex-container">
                 <li><h4>Japan </h4><p class="text-details">  <br>5 Days in Tokyo, <br> Fujikawa</p>
                 </li>
-                <li><del>$1,800</del><br><h3>$1,200</h3></li>
+                <li class="original-price"><del >$1,800</del><br><h3 class="discount-price">$1,200</h3></li>
               </ul>
               <div class="clock">
                 <ion-icon class="clock-time" name="time"></ion-icon>
@@ -296,7 +300,7 @@
               <ul class="flex-container">
                 <li><h4>Switzerland </h4><p class="text-details">  <br>7 Days in Zurich, <br> Zermatt</p>
                 </li>
-                <li><del>$4,300</del><br><h3>$3,500</h3></li>
+                <li class="original-price"><del>$4,300</del><br><h3 class="discount-price">$3,500</h3></li>
               </ul>
               <div class="clock">
                 <ion-icon class="clock-time" name="time"></ion-icon>
@@ -324,7 +328,7 @@
               <ul class="flex-container">
                 <li><h4>Finland </h4><p class="text-details">  <br>Helsinki, <br> Aurora village</p>
                 </li>
-                <li><del>$3,880</del><br><h3>$3,400</h3></li>
+                <li class="original-price"><del>$3,880</del><br><h3 class="discount-price">$3,400</h3></li>
               </ul>
               <div class="clock">
                 <ion-icon class="clock-time" name="time"></ion-icon>
@@ -349,7 +353,7 @@
               <ul class="flex-container">
                 <li><h4>Dubai </h4><p class="text-details">  <br>All stunning <br>places</p>
                 </li>
-                <li><del>$2,200</del><br><h3>$1,900</h3></li>
+                <li class="original-price"><del>$2,200</del><br><h3 class="discount-price">$1,900</h3></li>
               </ul>
               <div class="clock">
                 <ion-icon class="clock-time" name="time"></ion-icon>
@@ -377,7 +381,7 @@
               <ul class="flex-container">
                 <li><h4>Paris </h4><p class="text-details">  <br>Eiffel tower, <br>Nortre dame</p>
                 </li>
-                <li><del>$2,300</del><br><h3>$2,000</h3></li>
+                <li class="original-price"><del>$2,300</del><br><h3 class="discount-price">$2,000</h3></li>
               </ul>
               <div class="clock">
                 <ion-icon class="clock-time" name="time"></ion-icon>
@@ -402,7 +406,7 @@
               <ul class="flex-container">
                 <li><h4>Africa </h4><p class="text-details"><br>Amazing <br>African safari</p>
                 </li>
-                <li><del>$3,200</del><br><h3>$2,900</h3></li>
+                <li class="original-price"><del>$3,200</del><br><h3 class="discount-price">$2,900</h3></li>
               </ul>
               <div class="clock">
                 <ion-icon class="clock-time" name="time"></ion-icon>
@@ -717,7 +721,7 @@
           </div>
         </div>
         <div class="contact-section">
-          <h5 class="top-title">Contact Info</h5>
+          <h5 class="top-title contact-title">Contact Info</h5>
           <p class="footer-contact">Address : 24 Paul Street St. Catharines</p>
           <p class="footer-contact"><a href="tel:+1 905 651 0649">Phone : +1 905 651 0649</a></p>
           <p class="footer-contact"><a href="mailto:contact@superstarttravel.com"></a>contact@superstarttravel.com</p>
