@@ -197,7 +197,7 @@
   }
 
   .tour-text {
-    transform: translateY(-4rem);
+    transform: translateY(-5rem);
     font-size: 1.2rem;
     padding: 0.3rem 0.2rem;
   }
@@ -206,12 +206,24 @@
     font-size: 2rem;
   }
 
+  .destination-item img {
+    height: 30rem;
+  }
+
+  .popular-destination {
+    height: 45rem;
+  }
+
   .tour-container {
     width: 18rem;
   }
 
   .tour {
     justify-content: space-between;
+  }
+
+  .browse-activity {
+    margin-left: 5rem;
   }
 
   .btn-subscribe {
