@@ -317,14 +317,225 @@
 /* BELOW 704px (Smaller tablets) */
 /**************************/
 
-@media (max-width: 44em) {
-}
-
 /**************************/
 /* BELOW 544px (Phones) */
 /**************************/
 
 @media (max-width: 34em) {
+  .info-list-item {
+    display: none;
+  }
+
+  .logo {
+    width: 20rem;
+    height: 7rem;
+  }
+
+  .owl-text-overlay {
+    transform: translate(-4rem, -5rem);
+  }
+
+  .grid-template-columns-1 {
+    grid-template-columns: repeat(2, 1fr 2fr);
+    transform: translateY(-2rem);
+  }
+
+  .item-icon {
+    transform: translateY(-2rem);
+  }
+
+  .box {
+    height: 50rem;
+  }
+
+  .grid-template-columns-2 {
+    grid-template-columns: repeat(1, 1fr);
+    column-gap: 30px;
+  }
+
+  .fa-magnifying-glass {
+    font-size: 2rem;
+    transform: translateY(-0.7rem);
+  }
+
+  .btn--form {
+    margin-top: 3rem;
+  }
+
+  .searchbar-container {
+    height: 125rem;
+  }
+
+  .grid-template-columns-3 {
+    grid-template-columns: 5fr 0.5fr;
+    color: inherit;
+    border: none;
+    background-color: #fdf2e9;
+  }
+
+  .package-smalltext {
+    margin-left: 28rem;
+  }
+
+  .searchbar-container .item .discount {
+    right: -24%;
+  }
+
+  .popular-small-title {
+    margin-left: 10rem;
+    margin-top: 1rem;
+  }
+
+  .popular-text {
+    width: 40rem;
+  }
+
+  .popular-destination {
+    height: 155rem;
+  }
+
+  .destinations {
+    height: 140rem;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 0;
+  }
+
+  .destination-small-text {
+    font-size: 3rem;
+  }
+
+  .tour-container {
+    width: 43rem;
+  }
+
+  .tour-text {
+    transform: translateY(-7rem);
+    font-size: 1.7rem;
+    padding: 0.3rem 0.6rem;
+  }
+
+  .newsletter-section {
+    height: 100rem;
+  }
+
+  .grid-template-columns-6 {
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 4rem;
+  }
+
+  .bicycle {
+    margin-left: 4rem;
+  }
+
+  .form .mail {
+    margin-left: 4rem;
+  }
+
+  .email-container input,
+  .email-container select {
+    width: 70%;
+  }
+
+  .btn-subscribe {
+    margin-top: 0rem;
+    margin-left: 7rem;
+  }
+
+  .grid-template-columns-7 {
+    grid-template-columns: repeat(7, 1fr);
+    width: 27rem;
+  }
+
+  .newsletter-section {
+    height: 83rem;
+  }
+
+  .discount-text {
+    margin-left: 7rem;
+  }
+
+  .article-container {
+    height: 4rem;
+    padding-top: 0rem;
+  }
+
+  .article-section {
+    height: 60rem;
+  }
+
+  .book {
+    margin-left: 3rem;
+  }
+
+  .gallery {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .quality-container {
+    height: 50rem;
+  }
+
+  .grid-template-columns-8 {
+    grid-template-columns: repeat(1, 1fr);
+    text-align: center;
+  }
+
+  .quality-text {
+    font-size: 3.5rem;
+    width: 45rem;
+    padding: 0;
+    margin-bottom: 2rem;
+  }
+
+  .quality-container .item-text {
+    transform: translateY(-9rem);
+    font-size: 3rem;
+  }
+
+  .quality-icon-thumbs {
+    height: 7rem;
+    width: 7rem;
+  }
+
+  .quality-icon {
+    height: 8rem;
+    width: 8rem;
+  }
+
+  .grid-template-columns-9 {
+    grid-template-columns: repeat(1, 1fr);
+    text-align: center;
+  }
+
+  .logo-text {
+    width: 42rem;
+    padding-left: 5rem;
+  }
+
+  .awards {
+    width: 35rem;
+    margin-bottom: 3rem;
+  }
+
+  .top-title {
+    padding-left: 5rem;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  .footer-gallery {
+    width: 100%;
+    margin-left: 2rem;
+  }
+
+  .contact-title {
+    margin-left: -2rem;
+    margin-top: 2rem;
+  }
+
+  .contact-social-media {
+    margin-left: 7rem;
+  }
 }
 
 /**************************/
