@@ -669,7 +669,7 @@
   }
 
   .quality-container {
-    height: 50rem;
+    height: 40rem;
   }
 
   .grid-template-columns-8 {
@@ -678,25 +678,26 @@
   }
 
   .quality-text {
-    font-size: 3.5rem;
-    width: 45rem;
+    font-size: 2.5rem;
+    width: 43rem;
     padding: 0;
+    margin-top: 2rem;
     margin-bottom: 2rem;
   }
 
   .quality-container .item-text {
-    transform: translateY(-9rem);
-    font-size: 3rem;
+    transform: translateY(-8rem);
+    font-size: 2rem;
   }
 
   .quality-icon-thumbs {
-    height: 7rem;
-    width: 7rem;
+    height: 5rem;
+    width: 5rem;
   }
 
   .quality-icon {
-    height: 8rem;
-    width: 8rem;
+    height: 6rem;
+    width: 6rem;
   }
 
   .grid-template-columns-9 {
