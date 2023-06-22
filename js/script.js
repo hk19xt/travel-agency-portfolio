@@ -1,3 +1,5 @@
+// Main slider
+
 jQuery(document).ready(function ($) {
   $("#owl-demo").owlCarousel({
     loop: true,
@@ -19,6 +21,8 @@ jQuery(document).ready(function ($) {
     },
   });
 });
+
+// Package slider
 
 jQuery(document).ready(function ($) {
   $("#owl-packagedemo").owlCarousel({
@@ -43,6 +47,8 @@ jQuery(document).ready(function ($) {
   });
 });
 
+// Scroll button
+
 var btn = $("#scroll-button");
 
 $(window).scroll(function () {
@@ -58,6 +64,8 @@ btn.on("click", function (e) {
   $("html, body").animate({ scrollTop: 0 }, "300");
 });
 
+// Header sticky
+
 $(window).scroll(function () {
   if ($(this).scrollTop() > 450) {
     $(".header").addClass("sticky");
@@ -65,6 +73,8 @@ $(window).scroll(function () {
     $(".header").removeClass("sticky");
   }
 });
+
+// Mobile navigation
 
 const btnNavEl = document.querySelector(".btn-mobile-nav");
 const headerEl = document.querySelector(".header");
