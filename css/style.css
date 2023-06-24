@@ -35,9 +35,18 @@ body {
   height: 7.2rem;
 }
 
-/**************************/
-/* NAVIGATION */
-/**************************/
+.header-social-link {
+  display: inline-block;
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 1.8rem;
+  transition: all 0.3s;
+}
+
+.header-social-icon {
+  color: rgb(72, 185, 193);
+}
 
 .info-list {
   list-style: none;
@@ -71,19 +80,6 @@ body {
   transform: translatey(0.5rem);
 }
 
-.header-social-link {
-  display: inline-block;
-  text-decoration: none;
-  color: #ffffff;
-  font-weight: 500;
-  font-size: 1.8rem;
-  transition: all 0.3s;
-}
-
-.header-social-icon {
-  color: rgb(72, 185, 193);
-}
-
 .account-link {
   display: inline-block;
   text-decoration: none;
@@ -92,6 +88,10 @@ body {
   font-size: 1.3rem;
   transition: all 0.3s;
 }
+
+/**************************/
+/* NAVIGATION */
+/**************************/
 
 .main-nav {
   margin-left: auto;
@@ -125,6 +125,10 @@ body {
   color: #000000;
 }
 
+/**************************/
+/* Slider Section */
+/**************************/
+
 .slider-section {
   transform: translatey(-13.2rem);
   margin: -1px;
@@ -143,8 +147,6 @@ body {
     padding-left: 40px;
   }
 }
-
-/* Ow; Slider CSS*/
 
 .owl-wrapper {
   position: relative;
@@ -259,13 +261,6 @@ p.owl-text {
   margin-bottom: 3px;
 }
 
-.grid-template-columns-3 {
-  grid-template-columns: 5fr 1fr;
-  color: inherit;
-  border: none;
-  background-color: #fdf2e9;
-}
-
 .package-heading {
   font-family: inherit;
   margin-top: 6rem;
@@ -283,13 +278,6 @@ p.owl-text {
   font-size: 1.7rem;
   color: #2561e1;
   font-weight: 500;
-}
-
-.grid-template-columns-4 {
-  grid-template-rows: 270px auto;
-  border: none;
-  height: 520px;
-  overflow: hidden;
 }
 
 .owl-sliderimg {
