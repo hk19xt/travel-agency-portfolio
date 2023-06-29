@@ -582,12 +582,18 @@
     right: -24%;
   }
 
+  .popular-title {
+    margin-left: 6rem;
+    margin-top: 6rem;
+  }
+
   .popular-small-title {
     margin-left: 10rem;
     margin-top: 1rem;
   }
 
   .popular-text {
+    margin-top: 6rem;
     width: 25rem;
   }
 
