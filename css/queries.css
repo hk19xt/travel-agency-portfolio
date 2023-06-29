@@ -570,31 +570,42 @@
     background-color: #fdf2e9;
   }
 
-  .item {
-    width: 35rem;
-  }
-
   .package-smalltext {
-    margin-left: 28rem;
+    margin-left: 4rem;
   }
 
   .searchbar-container .item .discount {
     right: -24%;
   }
 
+  .package-slider {
+    margin-left: 5rem;
+    margin-right: 5rem;
+  }
+
+  /* .package-slider .owl-carousel {
+    width: 100%;
+  } */
+
+  .subway {
+    transform: translateY(-3rem);
+    margin-left: 4rem;
+    margin-top: 0rem;
+  }
+
   .popular-title {
-    margin-left: 6rem;
-    margin-top: 6rem;
+    margin-left: 2rem;
+    font-size: 2.5rem;
+    transform: translateY(-3.5rem);
   }
 
   .popular-small-title {
-    margin-left: 10rem;
-    margin-top: 1rem;
+    display: none;
   }
 
   .popular-text {
-    margin-top: 6rem;
-    width: 25rem;
+    margin-top: 0rem;
+    width: 28rem;
   }
 
   .popular-destination {
@@ -740,56 +751,13 @@
     margin-left: 7rem;
   }
 
-  /*   
-.owl-carousel .owl-nav button.owl-prev {
-  background-color: #478ee8;
-  position: absolute;
-  left: -75px;
-  top: 40%;
-  width: 50px;
-  height: 50px;
-}
+  .owl-carousel .owl-nav button.owl-prev {
+    left: -50px;
+  }
 
-.owl-carousel .owl-nav button.owl-prev span {
-  height: 50px;
-  width: 50px;
-  color: white;
-  font-size: 2.5rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-} */
-
-  /* .owl-carousel .owl-nav button.owl-next {
-  background-color: #478ee8;
-  position: absolute;
-  right: -75px;
-  top: 40%;
-  width: 50px;
-  height: 50px;
-}
-
-.owl-carousel .owl-nav button.owl-next span {
-  height: 50px;
-  width: 50px;
-  color: white;
-  font-size: 2.5rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-} */
+  .owl-carousel .owl-nav button.owl-next {
+    right: -50px;
+  }
 }
 
 /**************************/

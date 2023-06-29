@@ -29,7 +29,7 @@ jQuery(document).ready(function ($) {
     loop: true,
     margin: 70,
     nav: true,
-    autoplay: true,
+    autoplay: false,
     autoplayTimeout: 6000,
     autoplayHoverPause: false,
     dots: false,
