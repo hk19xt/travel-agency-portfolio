@@ -222,6 +222,10 @@
     justify-content: space-between;
   }
 
+  .activities-list {
+    text-align: center;
+  }
+
   .browse-activity {
     margin-left: 5rem;
   }
@@ -636,6 +640,33 @@
     height: 100rem;
   }
 
+  .form .mail {
+    margin-left: 4rem;
+  }
+
+  .newsletter-title {
+    margin-left: 3rem;
+  }
+
+  .news-small-title {
+    margin-left: 5rem;
+  }
+
+  .email-container {
+    margin-left: 5rem;
+    width: 100%;
+  }
+
+  .btn-subscribe {
+    width: 70%;
+    margin-top: 0;
+    margin-left: 5rem;
+  }
+
+  .social-item-list {
+    margin-left: 5rem;
+  }
+
   .grid-template-columns-6 {
     grid-template-columns: repeat(1, 1fr);
     grid-gap: 4rem;
@@ -645,18 +676,9 @@
     margin-left: 4rem;
   }
 
-  .form .mail {
-    margin-left: 4rem;
-  }
-
   .email-container input,
   .email-container select {
     width: 70%;
-  }
-
-  .btn-subscribe {
-    margin-top: 0rem;
-    margin-left: 7rem;
   }
 
   .grid-template-columns-7 {
@@ -669,12 +691,21 @@
   }
 
   .discount-text {
-    margin-left: 7rem;
+    margin-left: 4rem;
+  }
+
+  .btn-promotion {
+    margin-top: 2.5rem;
+    margin-left: 6.5rem;
   }
 
   .article-container {
-    height: 4rem;
+    height: 0rem;
     padding-top: 0rem;
+  }
+
+  .article-small-title {
+    display: none;
   }
 
   .article-section {
@@ -686,6 +717,7 @@
   }
 
   .gallery {
+    transform: translateY(-3.5rem);
     grid-template-columns: repeat(2, 1fr);
   }
 
@@ -695,20 +727,27 @@
 
   .quality-text {
     font-size: 2.5rem;
-    width: 43rem;
+    width: 23rem;
     padding: 0;
     margin-top: 2rem;
+    margin-left: 4rem;
     margin-bottom: 2rem;
   }
 
   .quality-container .item-text {
     transform: translateY(-8rem);
     font-size: 2rem;
+    margin-left: 6rem;
+  }
+
+  .grid-template-columns-8 {
+    grid-template-columns: repeat(1, 1fr);
+    text-align: center;
   }
 
   .quality-icon-thumbs {
-    height: 5rem;
-    width: 5rem;
+    height: 6rem;
+    width: 6rem;
   }
 
   .quality-icon {
@@ -718,17 +757,25 @@
 
   .grid-template-columns-9 {
     grid-template-columns: repeat(1, 1fr);
-    text-align: center;
+  }
+
+  .logo-section {
+    width: 30rem;
   }
 
   .logo-text {
-    width: 42rem;
+    width: 30rem;
     padding-left: 5rem;
   }
 
   .awards {
-    width: 35rem;
+    margin-left: 0;
+    width: 30rem;
     margin-bottom: 3rem;
+  }
+
+  .top-destinations-section {
+    width: 30rem;
   }
 
   .top-title {
@@ -742,13 +789,17 @@
     margin-left: 2rem;
   }
 
+  .contact-section {
+    width: 30rem;
+  }
+
   .contact-title {
     margin-left: -2rem;
     margin-top: 2rem;
   }
 
   .contact-social-media {
-    margin-left: 7rem;
+    margin-left: 2rem;
   }
 
   .owl-carousel .owl-nav button.owl-prev {
