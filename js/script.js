@@ -76,9 +76,9 @@ $(window).scroll(function () {
 
 // Mobile navigation
 
-const btnNavEl = document.querySelector(".btn-mobile-nav");
-const headerEl = document.querySelector(".header");
+const Elbtnnav = document.querySelector(".btn-mobile-nav");
+const Elheader = document.querySelector(".header");
 
-btnNavEl.addEventListener("click", function () {
-  headerEl.classList.toggle("nav-open");
+Elbtnnav.addEventListener("click", function () {
+  Elheader.classList.toggle("nav-open");
 });
